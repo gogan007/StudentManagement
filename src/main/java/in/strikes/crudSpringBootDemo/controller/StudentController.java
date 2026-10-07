@@ -31,7 +31,6 @@ public class StudentController {
 
     // read student
 
-    // update student
 
     // delete student
 
