@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
 
-@SpringBootApplication (exclude = {DataSourceAutoConfiguration.class})
-public class CrudSpringBootDemoApplication {
+@SpringBootApplication
+public class Main {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrudSpringBootDemoApplication.class, args);
+		SpringApplication.run(Main.class, args);
 	}
 
 }
